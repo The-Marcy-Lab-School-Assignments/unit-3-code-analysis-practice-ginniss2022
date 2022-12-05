@@ -23,3 +23,15 @@ forEach(['a', 'b', 'c'], console.log);
 <hr>
 
 Your explanation here...
+- The function `forEach` prints 
+
+Solution:
+
+```
+a
+b
+c
+```
+- The `arr` parameter expects an array to be passed through as an argument.
+- The `action` parameter expects a function to be passed through as an argument.
+- `forEach` iterates through each element of the array and invokes the function `console.log()` as the index is incremented.
